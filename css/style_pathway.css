@@ -1,0 +1,902 @@
+.pure-g [class*=pure-u],
+body {
+    font-family: Roboto, Arial, Helvetica
+}
+
+.ml-1 {
+    margin-left: 1rem
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    color: #37474f;
+    margin-top: 0
+}
+
+ul {
+    margin-top: 7px
+}
+
+li {
+    font-size: 14px;
+    color: #37474f;
+    font-weight: 100
+}
+
+.title {
+    font-size: 11px;
+    font-weight: 600;
+    color: #5f6569;
+    line-height: 120%;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: 1px
+}
+
+.pos-f-t {
+    background-color: #f6f6f6;
+    position: relative !important
+}
+
+@media (min-width:544px) {
+    .navbar {
+        border-radius: .25rem
+    }
+}
+
+.navbar {
+    position: relative;
+    padding: .5rem 1rem
+}
+
+.navbar-toggler {
+    float: right;
+    margin-top: 15px
+}
+
+.collapse {
+    display: none
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar .hidden-lg-up {
+    display: block !important
+}
+
+.navbar .collapse {
+    display: none !important
+}
+
+.navbar .collapse.in {
+    display: block !important
+}
+
+@media (min-width:1060px) {
+    .navbar .hidden-lg-up {
+        display: none !important
+    }
+    .navbar .collapse {
+        display: block !important
+    }
+}
+
+@media (max-width:1059px) {
+    .navbar-toggleable-md .navbar-nav .nav-item {
+        float: none;
+        margin-left: 1rem
+    }
+}
+
+.collapse.in {
+    display: block
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height
+}
+
+.inner {
+    padding: 1rem 2rem 0 2rem
+}
+
+.navbar-toggler {
+    padding: .5rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    -webkit-appearance: inherit
+}
+
+.navbar-toggler:focus {
+    outline: 0
+}
+
+@media (min-width:48em) {
+    .masthead-brand {
+        float: left
+    }
+    .nav-masthead {
+        float: right
+    }
+}
+
+.masthead-brand {
+    margin-bottom: 0
+}
+
+img {
+    vertical-align: middle
+}
+
+.nav-link {
+    color: #012e78 !important;
+    font-weight: 700
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+    text-decoration: none
+}
+
+.nav-link {
+    display: inline-block
+}
+
+.nav-masthead .active {
+    border-bottom-color: #012e78
+}
+
+.nav-masthead .nav-link+.nav-link {
+    margin-left: 1rem
+}
+
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.navbar-nav .nav-item {
+    float: left
+}
+
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 1rem
+}
+
+@media (min-width:992px) {
+    .hidden-lg-up {
+        display: none !important
+    }
+}
+
+.titlCont {
+    float: left;
+    width: 22%;
+    margin-left: 2%
+}
+
+.sub {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px
+}
+
+.pathway {
+    float: left;
+    width: 74%;
+    margin-left: 10px;
+    position: relative;
+    max-width: 790px
+}
+
+#e1,
+#e2,
+#e3,
+#e4 {
+    stroke: #29b6f6
+}
+
+.niceKsa {
+    width: 97%
+}
+
+.niceTasks {
+    width: 97%
+}
+
+.ksa {
+    line-height: 24px
+}
+
+.task {
+    line-height: 24px
+}
+
+.container {
+    max-width: 1130px;
+    width: 98%;
+    margin: 0 auto
+}
+
+.chartTitle {
+    font-size: 11px;
+    font-weight: 700;
+    color: #5f6569;
+    letter-spacing: 1px;
+    margin-bottom: 15px
+}
+
+.def {
+    font-size: 10px
+}
+
+.link {
+    fill: none;
+    stroke-width: 1px
+}
+
+.backLink {
+    fill: none;
+    display: none !important
+}
+
+#marker {
+    fill: #455a64
+}
+
+circle {
+    stroke-width: 2px;
+    stroke: #29b6f6;
+    fill: #f7f8f9
+}
+
+.circleCont text {
+    fill: #777
+}
+
+circle.Feeder {
+    stroke: transparent !important;
+    fill: transparent !important
+}
+
+circle.Entry-Level {
+    stroke: #438fe8 !important;
+    fill: #438fe8 !important
+}
+
+circle.Mid-Level {
+    stroke: #bd75b2 !important;
+    fill: #bd75b2 !important
+}
+
+circle.Advanced-Level {
+    stroke: #7fe2c6 !important;
+    fill: #7fe2c6 !important
+}
+
+text {
+    font-size: 12px;
+    pointer-events: none
+}
+
+.tooltip {
+    position: absolute;
+    padding: 4px 18px;
+    background-color: #f5f6f7;
+    z-index: 2;
+    opacity: .95;
+    display: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .35);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .35);
+    color: #37474f;
+    font-size: 14px;
+    font-weight: 600;
+    width: 16%;
+    max-width: 135px;
+    min-width: 82px;
+    font-family: inherit;
+    word-wrap: normal
+}
+
+.job {
+    height: 49px;
+    margin-top: 20px
+}
+
+.var {
+    font-size: 12px;
+    font-weight: 100
+}
+
+.more {
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 400
+}
+
+.table {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid #cfd8dc;
+    margin: 0 15px;
+    position: relative;
+    opacity: 0
+}
+
+.instr {
+    font-size: 24px;
+    width: 305px;
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 152px);
+    font-weight: 400;
+    color: #37474f;
+    z-index: 10
+}
+
+.box {
+    border-right: 1px solid #cfd8dc;
+    height: 160px;
+    position: relative
+}
+
+.pure-g>div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.infoBox {
+    position: absolute;
+    width: 97%;
+    height: 100%;
+    display: none;
+    background-color: #eceff1;
+    opacity: .95;
+    padding-left: 8px;
+    z-index: 1000
+}
+
+.infoTxtBox {
+    width: 91%
+}
+
+.infIcon {
+    margin-left: 5px;
+    cursor: pointer;
+    vertical-align: top !important
+}
+
+#ic4 {
+    margin-left: 1px
+}
+
+.closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    cursor: pointer
+}
+
+.boxContent {
+    margin: 0 8px
+}
+
+.row1 {
+    margin-bottom: 15px
+}
+
+.row2 {
+    padding-top: 15px;
+    border-top: 1px solid #cfd8dc;
+    display: none
+}
+
+.line {
+    border-top: 1px solid #cfd8dc
+}
+
+.is-bottom-row {
+    margin-top: 15px;
+    padding-top: 15px;
+    min-height: 160px;
+    border-top: 1px solid #cfd8dc
+}
+
+.remove-line-right {
+    border-right: none !important
+}
+
+.no8,
+.no9 {
+    height: auto
+}
+
+#no2,
+.no1,
+.no3,
+.no5 {
+    margin-bottom: 15px
+}
+
+#no7 {
+    border-left: 1px solid #cfd8dc;
+    border-right: none
+}
+
+.long {
+    height: auto
+}
+
+.salaryNum {
+    font-size: 28px;
+    font-weight: 100;
+    color: #37474f
+}
+
+.openingsNumber {
+    font-size: 28px;
+    font-weight: 100;
+    color: #37474f
+}
+
+.average_salary.circ {
+    fill: #f46d43;
+    opacity: .5;
+    stroke: none
+}
+
+.job_openings.circ {
+    fill: #74add1;
+    opacity: .5;
+    stroke: none
+}
+
+.op {
+    color: #74add1
+}
+
+.sal {
+    color: #f46d43
+}
+
+.number {
+    font-size: 16px;
+    font-weight: 600;
+    color: #37474f
+}
+
+.barNum {
+    font-size: 16px;
+    font-weight: 600;
+    color: #37474f
+}
+
+.areas {
+    margin-top: 7px
+}
+
+.accordion {
+    color: #37474f;
+    cursor: pointer;
+    padding: 5px 7px;
+    width: 85%;
+    text-align: left;
+    border: none;
+    outline: 0;
+    margin-bottom: 5px;
+    transition: .4s;
+    font-size: 14px;
+    background: url(../images/arrow_03.png) no-repeat;
+    background-position: calc(100% - 20px) 10px;
+    background-color: #cfd8dc
+}
+
+.accordion.active,
+.accordion:hover {
+    background-color: #b0bec5
+}
+
+ul.subCatsUl {
+    padding: 0 30px;
+    background-color: #fff;
+    display: none;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0
+}
+
+ul.subCatsUl.show {
+    display: block
+}
+
+ul.subCatsUl.hide {
+    display: none
+}
+
+.subCatsLi {
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #e9edef;
+    text-decoration: none;
+    display: block;
+    padding: .2rem .5rem
+}
+
+.subCatsLi.active {
+    font-weight: 800
+}
+
+.subCatsLi:hover {
+    background-color: #dde3e6
+}
+
+ol {
+    counter-reset: li;
+    margin-left: 0;
+    padding-left: 0
+}
+
+ol>li {
+    position: relative;
+    margin: 0 0 6px 2em;
+    padding: 5px 14px;
+    list-style: none;
+    border-top: 1px solid #cfd8dc
+}
+
+ol>li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: -1px;
+    left: -1.2em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 2em;
+    margin-right: 8px;
+    padding: 1px;
+    color: #607d8b;
+    font-weight: 800;
+    font-size: 21px;
+    text-align: center;
+    border-top: 1px solid #cfd8dc
+}
+
+.noData {
+    font-weight: 800;
+    color: #455a64;
+    margin: 5% 40%;
+    opacity: .7;
+    display: none
+}
+
+.clear {
+    clear: both
+}
+
+.wrapper {
+    padding-top: 2em;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -75px
+}
+
+#push {
+    height: 110px
+}
+
+.credits {
+    font-size: 14px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    color: #fff
+}
+
+.infogr8-link {
+    display: block;
+    width: 126px;
+    height: 52px;
+    background: left top no-repeat url(../images/infogr8-link.svg);
+    cursor: pointer
+}
+
+.cyberseek-logo {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: left top no-repeat url(../images/cs_logo.svg);
+    cursor: pointer
+}
+
+#prelC {
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    top: 25%;
+    left: 45%;
+    opacity: 0;
+    -webkit-animation: flickerAnimation 1s infinite;
+    -moz-animation: flickerAnimation 1s infinite;
+    -o-animation: flickerAnimation 1s infinite;
+    animation: flickerAnimation 1s infinite
+}
+
+@keyframes flickerAnimation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes flickerAnimation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes flickerAnimation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes flickerAnimation {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@media (max-width:1083px) {
+    .sub {
+        font-size: 13px
+    }
+}
+
+@media (max-width:968px) {
+    .titlCont {
+        width: 98%;
+        float: none
+    }
+    .pathway {
+        width: 98%;
+        margin: 0 auto;
+        float: none;
+        margin-top: 25px
+    }
+}
+
+@media (max-width:730px) {
+    .circleCont text {
+        font-size: 11px;
+        pointer-events: none
+    }
+    .job {
+        height: auto;
+        font-size: 28px
+    }
+}
+
+@media (max-width:570px) {
+    .arrows,
+    .labelsInf,
+    .rolesType {
+        display: none
+    }
+    .circleCont text {
+        font-size: 11px;
+        pointer-events: none
+    }
+    .sub {
+        font-size: 12px
+    }
+    .sharer-0 {
+        font-size: 12px
+    }
+    .job {
+        height: auto;
+        font-size: 21px
+    }
+    #no6,
+    #no7 {
+        border-left: none
+    }
+    .no3 {
+        border-right: none
+    }
+    .container {
+        width: 96%
+    }
+    .box {
+        height: auto
+    }
+    #no2,
+    #no4,
+    #no6 {
+        min-height: 0
+    }
+    .tooltip {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 4px 8px
+    }
+    .var {
+        font-size: 11px
+    }
+    .more {
+        line-height: 12px
+    }
+    .feedback {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        margin-left: 25px;
+        padding-top: 15px;
+        margin-bottom: 5px
+    }
+    .credits {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        margin-left: 40px;
+        margin-bottom: 0
+    }
+}
+
+.shareBtn {
+    position: relative;
+    font-size: 14px;
+    color: #37474f;
+    background: url(../images/svg/embed.svg) no-repeat;
+    background-size: 1.2em 1.2em;
+    background-position: 7px 7px;
+    border: 1px #37474f solid;
+    padding: 5px 10px 5px 1.75em;
+    border-radius: 5px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    margin-top: 1.2em;
+    margin-left: 5px
+}
+
+.shareBtn:hover {
+    color: #37474f;
+    background-color: #cfd8dc
+}
+
+.shareBtn:before {
+    line-height: 1em;
+    width: 1.2em;
+    height: 1.2em;
+    content: ' ';
+    background: url(../images/svg/share.svg) no-repeat
+}
+
+.btn:focus {
+    outline: 0
+}
+
+.modal-footer .btn-primary {
+    background-color: #50a9de !important;
+    border-color: #50a9de !important;
+    border-radius: 1.5rem !important
+}
+
+.modal-footer .btn-secondary {
+    border-radius: 1.5rem !important
+}
+
+.modal-header {
+    border-bottom: 0 !important
+}
+
+.modal-footer {
+    border-top: 0 !important
+}
+
+.noDataNote {
+    display: none;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px
+}
+
+.feeder {
+    display: none
+}
+
+.sal-lables,
+.sal-lables tspan {
+    font-size: 10px !important
+}
+
+.curr-sal-lable,
+.curr-sal-lable tspan {
+    font-size: 20px !important;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    fill: #ffc284
+}
+
+.average_salary.jobTitle,
+.average_salary.jobTitle tspan,
+.causeLabels tspan,
+.job_openings.jobTitle,
+.job_openings.jobTitle tspan {
+    font-family: Roboto, sans-serif;
+    font-weight: 300
+}
+
+.futureskills table {
+    margin: 0;
+    font-size: 14px;
+    color: #37474f;
+    font-weight: 100
+}

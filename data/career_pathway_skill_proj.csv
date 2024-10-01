@@ -1,0 +1,51 @@
+id,Cyber Job,Skill,Growth
+e2,Cyber Crime Analyst,Threat Hunting,104.55%
+e2,Cyber Crime Analyst,Security Information and Event Management (SIEM),64.33%
+e2,Cyber Crime Analyst,Anomaly Detection,57.69%
+e2,Cyber Crime Analyst,Network Firewalls,45.26%
+e2,Cyber Crime Analyst,Counter Intelligence,26.14%
+m1,Cybersecurity Analyst,Public Cloud Security,120.87%
+m1,Cybersecurity Analyst,Comprehensive Software Security,113.37%
+m1,Cybersecurity Analyst,Threat Hunting,104.55%
+m1,Cybersecurity Analyst,Security Information and Event Management (SIEM),64.33%
+m1,Cybersecurity Analyst,Threat Intelligence & Response,52.45%
+h3,Cybersecurity Architect,Container Security,155.49%
+h3,Cybersecurity Architect,Cloud Security,135.19%
+h3,Cybersecurity Architect,Public Cloud Security,120.87%
+h3,Cybersecurity Architect,Microservices Security,112.84%
+h3,Cybersecurity Architect,SABSA,65.13%
+m2,Cybersecurity Consultant,Security Foundation & Threat Intelligence,163.63%
+m2,Cybersecurity Consultant,Cloud Security,135.19%
+m2,Cybersecurity Consultant,Preventative Antivirus,74.00%
+m2,Cybersecurity Consultant,Cloud Access Security Broker (CASB) Management,68.23%
+m2,Cybersecurity Consultant,Enterprise Mission Assurance Support Service,64.16%
+h2,Cybersecurity Engineer,Container Security,155.49%
+h2,Cybersecurity Engineer,Cloud Security,135.19%
+h2,Cybersecurity Engineer,Comprehensive Software Security,113.37%
+h2,Cybersecurity Engineer,Privileged Account Security,86.35%
+h2,Cybersecurity Engineer,SaaS Application Security,75.65%
+h1,Cybersecurity Manager,Cloud Security,135.19%
+h1,Cybersecurity Manager,Cloud Access Security Broker (CASB) Management,68.23%
+h1,Cybersecurity Manager,Enterprise Mission Assurance Support Service,64.16%
+h1,Cybersecurity Manager,Cybersecurity Strategy,56.54%
+h1,Cybersecurity Manager,Security Insider Threat Management,56.40%
+e1,Cybersecurity Specialist,Threat Hunting,104.55%
+e1,Cybersecurity Specialist,Risk Management Framework,53.02%
+e1,Cybersecurity Specialist,Threat Intelligence & Response,52.45%
+e1,Cybersecurity Specialist,Network Firewalls,45.26%
+e1,Cybersecurity Specialist,Phishing,35.90%
+e3,Incident & Intrusion Analyst,Threat Hunting,104.55%
+e3,Incident & Intrusion Analyst,Security Information and Event Management (SIEM),64.33%
+e3,Incident & Intrusion Analyst,Anomaly Detection,57.69%
+e3,Incident & Intrusion Analyst,Security Insider Threat Management,56.40%
+e3,Incident & Intrusion Analyst,Counter Intelligence,26.14%
+e4,IT Auditor,Blockchain,97.32%
+e4,IT Auditor,Security Roles & User Privileges,77.19%
+e4,IT Auditor,User Security Management,74.88%
+e4,IT Auditor,Security Insider Threat Management,56.40%
+e4,IT Auditor,ISO 27001,32.23%
+m3,Vulnerability Analyst / Penetration Tester,Container Security,155.49%
+m3,Vulnerability Analyst / Penetration Tester,Comprehensive Software Security,113.37%
+m3,Vulnerability Analyst / Penetration Tester,Threat Hunting,104.55%
+m3,Vulnerability Analyst / Penetration Tester,SaaS Application Security,75.65%
+m3,Vulnerability Analyst / Penetration Tester,Anomaly Detection,57.69%
